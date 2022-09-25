@@ -6,19 +6,17 @@ import { AppComponent } from './app.component';
 import { ParentComponent } from './component/parent/parent.component';
 import { ChildComponent } from './component/child/child.component';
 import { GrandparentComponent } from './component/grandparent/grandparent.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
     AppComponent,
     ParentComponent,
     ChildComponent,
-    GrandparentComponent
+    GrandparentComponent,
   ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule
-  ],
+  imports: [BrowserModule, AppRoutingModule, FormsModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
