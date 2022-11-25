@@ -1,0 +1,110 @@
+.card-wrap {
+  padding: 0 20px;
+  text-align: center;
+  position: relative;
+  border-right: 1px dashed #e1e1e1;
+}
+.parallax-section {
+  padding: 90px 0;
+  position: relative;
+  background-attachment: fixed !important;
+  background-repeat: no-repeat !important;
+  background-position: center center !important;
+  height: 100%;
+  width: 100%;
+  background-size: cover !important;
+}
+.page-section {
+  padding: 90px 0;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+.title-holder {
+  margin-bottom: 40px;
+}
+.align-center {
+  text-align: center;
+}
+.section-title {
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 54px;
+  margin-bottom: 40px;
+}
+.card-item {
+  position: relative;
+  .icon {
+    position: relative;
+    font-size: 48px;
+    color: #fff;
+    width: 82px;
+    height: 82px;
+    line-height: 82px;
+    text-align: center;
+    border-radius: 50px;
+    margin-bottom: 15px;
+    display: inline-block;
+    transform: rotate(-11deg);
+    &--one {
+      background-color: #ffbd0a;
+    }
+    &--two {
+      background-color: #a7c439;
+    }
+    &--three {
+      background-color: #ee5a36;
+    }
+    &--four {
+      background-color: #57c9c4;
+    }
+  }
+  h4 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    a {
+      color: #666666;
+    }
+  }
+  p {
+    color: #858585;
+    line-height: 24px;
+    margin-bottom: 30px;
+  }
+}
+
+// our class
+.our-class {
+  background-color: orange;
+  height: auto;
+  .card__block {
+    h4 {
+      font-size: 28px;
+      color: #3cd53c;
+      margin: 30px 0;
+    }
+    .card__list {
+      img {
+        width: 100%;
+        height: 250px;
+        object-fit: contain;
+      }
+    }
+
+    .details__block {
+      padding: 20px 15px 0;
+      margin: 20px 0 15px;
+      border-top: 1px dotted;
+    }
+    .details__list {
+      display: flex;
+      justify-content: space-between;
+
+      h5 {
+        font-size: 16px;
+        color: red;
+        margin: 5px 0;
+      }
+    }
+  }
+}

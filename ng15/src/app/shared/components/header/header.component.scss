@@ -1,0 +1,26 @@
+.nav {
+  background-color: #f1f1f1;
+  padding: 0 15px;
+  &__block {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    height: 70px;
+  }
+  &__list {
+    &:first-child {
+      flex-basis: 30%;
+    }
+    &:last-child {
+      flex-basis: 70%;
+    }
+
+    .menu {
+      padding: 0;
+      list-style: none;
+      display: flex;
+      justify-content: space-evenly;
+    }
+  }
+}

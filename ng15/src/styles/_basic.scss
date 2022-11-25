@@ -1,0 +1,43 @@
+a:hover,
+a,
+a:visited {
+  text-decoration: none;
+  transition: all 0.2s ease-in;
+  color: inherit;
+}
+a,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+span,
+small {
+  color: #666;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Rubik", sans-serif !important;
+}
+.border-none {
+  border: none !important;
+}
+.white-color {
+  color: white !important;
+}
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .wrap {
+    flex-wrap: wrap;
+  }
+  &.column {
+    flex-direction: column;
+  }
+}
